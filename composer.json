@@ -1,0 +1,20 @@
+{
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "mcp/sdk": "^0.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InternalAppMcp\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/internal-app-mcp-server.php"
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
