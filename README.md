@@ -10,7 +10,7 @@ The current live registry ships with one enabled app:
 
 - `Dashboard SOJ`
 - tool: `fetch_general_dashboard`
-- upstream: `https://newdev.bcainsurance.co.id/soj_api/Main/FetchGeneralDashboard/`
+- upstream: `https://internal.api.co.id/soj_api/Main/FetchGeneralDashboard/`
 
 It also includes one disabled placeholder app entry you can duplicate and enable when you are ready to expose another internal application.
 
